@@ -11,6 +11,8 @@
         devShells.default = pkgs.mkShell {
           packages = [
             pkgs.zola
+            pkgs.nodejs
+            pkgs.yarn
           ];
         };
       };
